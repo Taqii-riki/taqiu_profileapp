@@ -21,7 +21,7 @@ class ProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFF2F2F2), // Sleek light gray background
+      backgroundColor: const Color(0xFF0D6FA3), // Blue sea outside background
       body: SingleChildScrollView(
         child: Center(
           child: Padding(
@@ -121,6 +121,17 @@ class ProfilePage extends StatelessWidget {
                           ),
                         ),
                         const SizedBox(height: 6),
+                        const Text(
+                          'just vibing through life ✦',
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w500,
+                            color: Color(0xFF004D98),
+                            fontStyle: FontStyle.italic,
+                          ),
+                        ),
+                        const SizedBox(height: 8),
                         const Text(
                           'Software Engineer',
                           textAlign: TextAlign.center,
